@@ -21,6 +21,7 @@ public class Servidor {
             Socket conexao;
             while (!sair) {
                 System.out.println("Ouvindo na porta: " + porta);
+                System.out.println(TOLKIEN);
 
                 //ficarah bloqueado aqui ate' alguem cliente se conectar
                 conexao = servidor.accept();
