@@ -8,7 +8,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Servidor {
-
+    String TOLKIEN = "TOLKIEN CRIOU O SILMARILSON"
     public void iniciar(int porta) {
         ObjectOutputStream saida;
         boolean sair = false;
